@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed01f039-0f70-4738-a59b-713c42850441" name="Default Changelist" comment="" />
+    <list default="true" id="ed01f039-0f70-4738-a59b-713c42850441" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrays/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrays/SearchTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WJ1c4izyOrWItkrR3keTHQLU73" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -177,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578852960067</updated>
-      <workItem from="1578852964169" duration="4678000" />
+      <workItem from="1578852964169" duration="6055000" />
     </task>
     <servers />
   </component>
@@ -189,22 +198,26 @@
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
     <state x="2453" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578872859502" />
-    <state width="2518" height="164" key="GridCell.Tab.0.bottom" timestamp="1578876626515">
+    <state x="2440" y="-38" key="CommitChangelistDialog2" timestamp="1578882519830">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578876626515" />
-    <state width="2518" height="164" key="GridCell.Tab.0.center" timestamp="1578876626513">
+    <state x="2440" y="-38" key="CommitChangelistDialog2/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882519830" />
+    <state width="2518" height="164" key="GridCell.Tab.0.bottom" timestamp="1578882885260">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.center/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578876626513" />
-    <state width="2518" height="164" key="GridCell.Tab.0.left" timestamp="1578876626511">
+    <state width="2518" height="164" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885260" />
+    <state width="2518" height="164" key="GridCell.Tab.0.center" timestamp="1578882885259">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.left/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578876626511" />
-    <state width="2518" height="164" key="GridCell.Tab.0.right" timestamp="1578876626514">
+    <state width="2518" height="164" key="GridCell.Tab.0.center/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885259" />
+    <state width="2518" height="164" key="GridCell.Tab.0.left" timestamp="1578882885258">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.right/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578876626514" />
+    <state width="2518" height="164" key="GridCell.Tab.0.left/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885258" />
+    <state width="2518" height="164" key="GridCell.Tab.0.right" timestamp="1578882885260">
+      <screen x="1440" y="-157" width="2560" height="1057" />
+    </state>
+    <state width="2518" height="164" key="GridCell.Tab.0.right/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885260" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1578852964201">
       <screen x="0" y="23" width="1440" height="824" />
     </state>

@@ -38,4 +38,32 @@ class SearchTest {
 
     }
 
+    @Test
+    public void positionReturnWithEqualsValuesInArray_valuePositionModeOne(){
+
+        assertEquals(4, valuePositionModeOne(0, aArray().withAllValuesEqualsToZero().now(), sizeArray));
+
+    }
+
+    @Test
+    public void positionReturnWithEqualsValuesInArray_valuePositionModeTwo(){
+
+        assertEquals(4, valuePositionModeTwo(0, aArray().withAllValuesEqualsToZero().now(), sizeArray));
+
+    }
+
+    @Test
+    public void positionReturnWithEqualsValuesInArray_valuePositionModeThree(){
+
+        assertEquals(0, valuePositionModeThree(0, aArray().withAllValuesEqualsToZero().now(), sizeArray));
+
+    }
+
+    @Test
+    public void positionReturnWithEqualsValuesInArray_valuePositionRecursive(){
+
+        assertEquals(4, valuePositionRecursive(0, aArray().withAllValuesEqualsToZero().now(), sizeArray));
+
+    }
+
 }

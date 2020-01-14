@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed01f039-0f70-4738-a59b-713c42850441" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/arrays/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrays/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,23 +74,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTest.positionReturnWithDiferenteValuesInArray_vvaluePositionRecursive">
-    <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in javalgorithms">
+    <configuration name="All in javalgorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.SearchTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.positionReturnWithDiferenteValuesInArray_valuePositionModeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.positionReturnWithEqualsValuesInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalgorithms" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="arrays" />
       <option name="MAIN_CLASS_NAME" value="arrays.SearchTest" />
-      <option name="METHOD_NAME" value="positionReturnWithDiferenteValuesInArray_valuePositionModeOne" />
+      <option name="METHOD_NAME" value="positionReturnWithEqualsValuesInArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.positionReturnWithDiferenteValuesInArray_valuePositionModeThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.positionReturnWithEqualsValuesInArray_valuePositionModeThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalgorithms" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +109,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="arrays" />
       <option name="MAIN_CLASS_NAME" value="arrays.SearchTest" />
-      <option name="METHOD_NAME" value="positionReturnWithDiferenteValuesInArray_valuePositionModeThree" />
+      <option name="METHOD_NAME" value="positionReturnWithEqualsValuesInArray_valuePositionModeThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.positionReturnWithDiferenteValuesInArray_valuePositionModeTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.positionReturnWithEqualsValuesInArray_valuePositionModeTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalgorithms" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +125,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="arrays" />
       <option name="MAIN_CLASS_NAME" value="arrays.SearchTest" />
-      <option name="METHOD_NAME" value="positionReturnWithDiferenteValuesInArray_valuePositionModeTwo" />
+      <option name="METHOD_NAME" value="positionReturnWithEqualsValuesInArray_valuePositionModeTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.positionReturnWithDiferenteValuesInArray_vvaluePositionRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.positionReturnWithEqualsValuesInArray_valuePositionRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javalgorithms" />
       <extension name="coverage">
         <pattern>
@@ -148,7 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="arrays" />
       <option name="MAIN_CLASS_NAME" value="arrays.SearchTest" />
-      <option name="METHOD_NAME" value="positionReturnWithDiferenteValuesInArray_vvaluePositionRecursive" />
+      <option name="METHOD_NAME" value="positionReturnWithEqualsValuesInArray_valuePositionRecursive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTest.positionReturnWithDiferenteValuesInArray_vvaluePositionRecursive" />
-        <item itemvalue="JUnit.SearchTest" />
-        <item itemvalue="JUnit.SearchTest.positionReturnWithDiferenteValuesInArray_valuePositionModeThree" />
-        <item itemvalue="JUnit.SearchTest.positionReturnWithDiferenteValuesInArray_valuePositionModeTwo" />
-        <item itemvalue="JUnit.SearchTest.positionReturnWithDiferenteValuesInArray_valuePositionModeOne" />
+        <item itemvalue="JUnit.All in javalgorithms" />
+        <item itemvalue="JUnit.SearchTest.positionReturnWithEqualsValuesInArray_valuePositionRecursive" />
+        <item itemvalue="JUnit.SearchTest.positionReturnWithEqualsValuesInArray_valuePositionModeThree" />
+        <item itemvalue="JUnit.SearchTest.positionReturnWithEqualsValuesInArray_valuePositionModeTwo" />
+        <item itemvalue="JUnit.SearchTest.positionReturnWithEqualsValuesInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578852960067</updated>
       <workItem from="1578852964169" duration="6055000" />
+      <workItem from="1578959916996" duration="1507000" />
     </task>
     <servers />
   </component>
@@ -202,22 +196,22 @@
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
     <state x="2440" y="-38" key="CommitChangelistDialog2/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882519830" />
-    <state width="2518" height="164" key="GridCell.Tab.0.bottom" timestamp="1578882885260">
+    <state width="2518" height="273" key="GridCell.Tab.0.bottom" timestamp="1578961175142">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885260" />
-    <state width="2518" height="164" key="GridCell.Tab.0.center" timestamp="1578882885259">
+    <state width="2518" height="273" key="GridCell.Tab.0.bottom/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578961175142" />
+    <state width="2518" height="273" key="GridCell.Tab.0.center" timestamp="1578961175141">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.center/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885259" />
-    <state width="2518" height="164" key="GridCell.Tab.0.left" timestamp="1578882885258">
+    <state width="2518" height="273" key="GridCell.Tab.0.center/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578961175141" />
+    <state width="2518" height="273" key="GridCell.Tab.0.left" timestamp="1578961175141">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.left/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885258" />
-    <state width="2518" height="164" key="GridCell.Tab.0.right" timestamp="1578882885260">
+    <state width="2518" height="273" key="GridCell.Tab.0.left/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578961175141" />
+    <state width="2518" height="273" key="GridCell.Tab.0.right" timestamp="1578961175142">
       <screen x="1440" y="-157" width="2560" height="1057" />
     </state>
-    <state width="2518" height="164" key="GridCell.Tab.0.right/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578882885260" />
+    <state width="2518" height="273" key="GridCell.Tab.0.right/0.23.1440.824/1440.-157.2560.1057@1440.-157.2560.1057" timestamp="1578961175142" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1578852964201">
       <screen x="0" y="23" width="1440" height="824" />
     </state>

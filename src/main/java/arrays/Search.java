@@ -8,6 +8,7 @@ public class Search {
      * @return position
      */
 
+//    right to left search
     public static int valuePositionModeOne(int x, int v[], int n) {
         int k = n - 1;
         while (k >= 0 && v[k] != x) {
@@ -16,6 +17,7 @@ public class Search {
         return k;
     }
 
+//    right to left search
     public static int valuePositionModeTwo(int x, int v[], int n) {
         for (int k = n - 1; k >= 0; k--) {
             if (v[k] == x) {
@@ -25,6 +27,7 @@ public class Search {
         return -1;
     }
 
+//    left to right search
     public static int valuePositionModeThree(int x, int v[], int n) {
         int k = 0;
         while (k < n && v[k] != x) {
@@ -36,6 +39,7 @@ public class Search {
         return -1;
     }
 
+//    right to left search
     public static int valuePositionRecursive(int x, int v[], int n) {
         if (n == 0) {
             return -1;

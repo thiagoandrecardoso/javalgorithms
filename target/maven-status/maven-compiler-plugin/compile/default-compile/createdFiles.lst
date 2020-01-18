@@ -1,2 +1,4 @@
+arrays/Operation.class
 arrays/Search.class
 arrays/Remove.class
+exception/PassingNullArrayException.class

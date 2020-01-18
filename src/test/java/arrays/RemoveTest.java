@@ -34,7 +34,9 @@ class RemoveTest {
 
     @Test
     public void checkArraySizeAfterRemovingAnIntemRecursive() {
-        assertEquals(4, removeItemFromPositionAndReturnNewSizeRecursive(2, aArray().withValueFromOneToFive().now(), sizeArray));
+        assertEquals(4,
+                removeItemFromPositionAndReturnNewSizeRecursive(2,
+                        aArray().withValueFromOneToFive().now(), sizeArray));
     }
 
     @Test

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: arrays.OperationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in arrays.OperationTest
+handlesErroPassingNullArray  Time elapsed: 0.023 s  <<< ERROR!
+exception.PassingNullArrayException: Erro passing null array
+	at arrays.OperationTest.handlesErroPassingNullArray(OperationTest.java:47)
+

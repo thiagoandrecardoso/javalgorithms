@@ -18,7 +18,6 @@ class RemoveTest {
 
     @Test
     public void checkIfTheValueAtPositionZeroHasBeenDeleted() {
-//        1, 2, 3, 4, 5
         int array[] = aArray().withValueFromOneToFive().now();
         removeItemFromPositionAndReturnNewSize(0, array, sizeArray);
 
@@ -27,7 +26,6 @@ class RemoveTest {
 
     @Test
     public void checkIfTheValueAtLastPositionHasBeenDeleted() {
-//        1, 2, 3, 4, 5
         int array[] = aArray().withValueFromOneToFive().now();
         int lastValue = removeItemFromPositionAndReturnNewSize(4, array, sizeArray);
 
@@ -35,13 +33,12 @@ class RemoveTest {
     }
 
     @Test
-    public void checkArraySizeAfterRemovingAnIntemRecursive(){
+    public void checkArraySizeAfterRemovingAnIntemRecursive() {
         assertEquals(4, removeItemFromPositionAndReturnNewSizeRecursive(2, aArray().withValueFromOneToFive().now(), sizeArray));
     }
 
     @Test
     public void checkIfTheValueAtPositionZeroHasBeenDeletedRecursive() {
-//        1, 2, 3, 4, 5
         int array[] = aArray().withValueFromOneToFive().now();
         removeItemFromPositionAndReturnNewSizeRecursive(0, array, sizeArray);
 
@@ -50,7 +47,6 @@ class RemoveTest {
 
     @Test
     public void checkIfTheValueAtLastPositionHasBeenDeletedRecursive() {
-//        1, 2, 3, 4, 5
         int array[] = aArray().withValueFromOneToFive().now();
         int lastValue = removeItemFromPositionAndReturnNewSizeRecursive(4, array, sizeArray);
 

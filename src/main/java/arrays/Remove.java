@@ -17,7 +17,7 @@ public class Remove {
     }
 
     public static int removeItemFromPositionAndReturnNewSizeRecursive(int position, int v[], int n){
-        if(position == n -1){
+        if(position == (n - 1)){
             return n - 1;
         }else{
             v[position] = v[position + 1];

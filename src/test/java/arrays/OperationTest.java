@@ -6,16 +6,18 @@ import org.junit.jupiter.api.Test;
 import org.junit.rules.ErrorCollector;
 import org.junit.rules.ExpectedException;
 
+import static arrays.Operation.diferenceBetweenHighestAndLowestValue;
 import static builders.ArrayBuilder.aArray;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 
 class OperationTest {
 
-    @Rule
-    public ErrorCollector error = new ErrorCollector();
-    @Rule
-    public ExpectedException exception = ExpectedException.none();
+//    @Rule
+//    public ErrorCollector error = new ErrorCollector();
+//    @Rule
+//    public ExpectedException exception = ExpectedException.none();
 
     @Test
     public void mustReturnFour_usingArrayWithValuesFromOneToFive() throws PassingNullArrayException {
@@ -23,7 +25,7 @@ class OperationTest {
         int highest = array[0];
         int lowest = array[0];
 
-        assertEquals(4, Operation.diferenceBetweenHighestAndLowestValue(array, array.length, 1, highest, lowest));
+        assertEquals(4, diferenceBetweenHighestAndLowestValue(array, array.length, 1, highest, lowest));
     }
 
     @Test
@@ -32,19 +34,22 @@ class OperationTest {
         int highest = array[0];
         int lowest = array[0];
 
-        assertEquals(0, Operation.diferenceBetweenHighestAndLowestValue(array, array.length, 1, highest, lowest));
+        assertEquals(0, diferenceBetweenHighestAndLowestValue(array, array.length, 1, highest, lowest));
     }
 
     @Test
-    public void handlesErroPassingNullArray() throws Exception {
+    public void handlesErroPassingNullArray() {
         int array[] = null;
         int highest = 0;
         int lowest = 0;
 
-        exception.expect(PassingNullArrayException.class);
-        exception.expectMessage("Erro passing null array");
+        try {
+            diferenceBetweenHighestAndLowestValue(array, 0, 1, highest, lowest);
+            fail();
+        } catch (PassingNullArrayException e) {
+            assertEquals(e.getMessage(), "Erro passing null array");
+        }
 
-        Operation.diferenceBetweenHighestAndLowestValue(array, 0, 1, highest, lowest);
     }
 
 }

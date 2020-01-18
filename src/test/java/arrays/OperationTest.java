@@ -1,10 +1,7 @@
 package arrays;
 
 import exception.PassingNullArrayException;
-import org.junit.Rule;
 import org.junit.jupiter.api.Test;
-import org.junit.rules.ErrorCollector;
-import org.junit.rules.ExpectedException;
 
 import static arrays.Operation.diferenceBetweenHighestAndLowestValue;
 import static builders.ArrayBuilder.aArray;
@@ -13,11 +10,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 
 class OperationTest {
-
-//    @Rule
-//    public ErrorCollector error = new ErrorCollector();
-//    @Rule
-//    public ExpectedException exception = ExpectedException.none();
 
     @Test
     public void mustReturnFour_usingArrayWithValuesFromOneToFive() throws PassingNullArrayException {

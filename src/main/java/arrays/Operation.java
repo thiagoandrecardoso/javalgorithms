@@ -12,7 +12,7 @@ public class Operation {
      * @return int
      */
     public static int diferenceBetweenHighestAndLowestValue(int v[], int length, int i, int highest, int lowest) throws PassingNullArrayException {
-        if(v == null){
+        if (v == null) {
             throw new PassingNullArrayException("Erro passing null array");
         }
         if (length == i) {

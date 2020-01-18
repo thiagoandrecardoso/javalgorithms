@@ -15,4 +15,13 @@ public class Remove {
         }
         return n - 1;
     }
+
+    public static int removeItemFromPositionAndReturnNewSizeRecursive(int position, int v[], int n){
+        if(position == n -1){
+            return n - 1;
+        }else{
+            v[position] = v[position + 1];
+            return removeItemFromPositionAndReturnNewSizeRecursive(position+ 1, v, n);
+        }
+    }
 }

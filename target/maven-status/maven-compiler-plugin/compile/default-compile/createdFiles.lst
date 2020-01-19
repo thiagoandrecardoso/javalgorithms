@@ -1,4 +1,5 @@
 arrays/Operation.class
 arrays/Search.class
+math/SteinerPizza.class
 arrays/Remove.class
 exception/PassingNullArrayException.class

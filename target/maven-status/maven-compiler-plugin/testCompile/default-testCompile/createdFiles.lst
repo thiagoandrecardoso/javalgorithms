@@ -1,5 +1,7 @@
-math/SteinerPizzaTest.class
 arrays/SearchTest.class
 arrays/RemoveTest.class
-builders/ArrayBuilder.class
 arrays/OperationTest.class
+arrays/OrderTest.class
+oni/ProblemaB2005Test.class
+math/SteinerPizzaTest.class
+builders/ArrayBuilder.class

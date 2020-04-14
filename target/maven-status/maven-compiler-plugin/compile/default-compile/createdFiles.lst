@@ -1,5 +1,10 @@
-arrays/Operation.class
 arrays/Search.class
-math/SteinerPizza.class
-arrays/Remove.class
+pilares/heranca/FiguraGeometrica.class
+arrays/Order.class
 exception/PassingNullArrayException.class
+arrays/Operation.class
+pilares/main/Teste.class
+oni/ProblemaB2005.class
+math/SteinerPizza.class
+pilares/heranca/Quadrado.class
+arrays/Remove.class
